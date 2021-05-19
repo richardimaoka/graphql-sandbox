@@ -1,0 +1,28 @@
+type User {
+  userId: String
+  userName: String
+}
+
+type Category {
+  name: String
+}
+
+type Topic {
+  name: String
+  category: Category
+}
+
+type Tweet {
+  id: ID
+  time: String
+  content: String
+  user: User
+  favorits: Int
+  replies: Int
+  retweets: Int
+}
+
+type Query {
+  recommendedUsers: [User]
+  tweets: [Tweet]
+}
