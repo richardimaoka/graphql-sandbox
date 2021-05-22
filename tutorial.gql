@@ -1,0 +1,23 @@
+type Task {
+  _: Boolean
+}
+
+type Step {
+  _: Boolean
+}
+
+type Code {
+  _: Boolean
+}
+
+type Command {
+  _: Boolean
+}
+
+type UIoperation {
+  _: Boolean
+}
+
+type Result {
+  _: Boolean
+}
