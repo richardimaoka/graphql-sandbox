@@ -1,0 +1,28 @@
+type Query {
+  weeks: [Week]
+}
+
+type Course {
+  _: Boolean
+}
+
+type Week {
+  trainings: [Training]
+}
+
+type Training {
+  _: Boolean
+  learningObjectives: [LearningObjective]
+}
+
+type LearningObjective {
+  description: String
+}
+
+type Grade {
+  _: Boolean
+}
+
+type Page {
+  progress: Int
+}
