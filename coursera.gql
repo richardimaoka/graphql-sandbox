@@ -1,5 +1,16 @@
 type Query {
   weeks: [Week]
+  unions: TypeAB
+}
+
+union TypeAB = TypeA | TypeB
+
+type TypeA {
+  a: Int
+}
+
+type TypeB {
+  b: Int
 }
 
 type Course {
