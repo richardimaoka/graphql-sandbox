@@ -28,9 +28,25 @@ type Page {
 }
 
 type Mutation {
-  addTrainingToWeek(training: TrainingInput, weekOf: Int): Boolean
+  addTrainingToWeek(
+    training: TrainingInput
+    weekOf: Int
+  ): AddTrainingToWeekMutationResponse
 }
 
 input TrainingInput {
   _: Boolean
+}
+
+interface MutationResponse {
+  code: String!
+  success: Boolean!
+  message: String!
+}
+
+type AddTrainingToWeekMutationResponse implements MutationResponse {
+  code: String!
+  success: Boolean!
+  message: String!
+  user: Training
 }
