@@ -2,6 +2,23 @@ type Task {
   _: Boolean
 }
 
+interface IStep {
+  number: Int
+  optional: Boolean
+  premium: Boolean
+}
+
+type HyperlinkStep extends IStep {
+  hyperlink: URL
+}
+
+"""
+better be a scala type?
+"""
+type URL {
+  string: String
+}
+
 type Step {
   _: Boolean
   optional: Boolean
