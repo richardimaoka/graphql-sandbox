@@ -44,20 +44,18 @@ const books = [
 // The ApolloServer constructor requires two parameters: your schema
 // definition and your set of resolvers.
 const resolvers = {
-  Query: {
-    unions: {
-      __resolveType(obj, context, info) {
-        if (obj.a) {
-          console.log("obje.a path");
-          return "TypeA";
-        }
-        if (obj.b) {
-          console.log("obje.b path");
-          return "TypeB";
-        }
-        console.log("null path");
-        return null; // GraphQLError is thrown
-      },
+  TypeAB: {
+    __resolveType(obj, context, info) {
+      if (obj.a) {
+        console.log("obje.a path");
+        return "TypeA";
+      }
+      if (obj.b) {
+        console.log("obje.b path");
+        return "TypeB";
+      }
+      console.log("null path");
+      return null; // GraphQLError is thrown
     },
   },
 };
