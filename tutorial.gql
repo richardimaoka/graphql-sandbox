@@ -8,8 +8,12 @@ interface IStep {
   premium: Boolean
 }
 
-type HyperlinkStep extends IStep {
+type HyperlinkStep implements IStep {
   hyperlink: URL
+}
+
+type ScreenShot {
+  imageUrl: URL
 }
 
 """
