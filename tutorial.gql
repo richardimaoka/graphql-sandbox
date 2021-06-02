@@ -4,6 +4,9 @@ type Task {
 
 type Step {
   _: Boolean
+  optional: Boolean
+  premium: Boolean
+  number: Int
 }
 
 type Code {
@@ -19,5 +22,13 @@ type UIoperation {
 }
 
 type Result {
+  _: Boolean
+}
+
+type EmbeddedVideo {
+  _: Boolean
+}
+
+type EmbeddedImage {
   _: Boolean
 }
