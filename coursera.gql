@@ -26,3 +26,11 @@ type Grade {
 type Page {
   progress: Int
 }
+
+type Mutation {
+  addTrainingToWeek(training: TrainingInput, weekOf: Int): Boolean
+}
+
+input TrainingInput {
+  _: Boolean
+}
