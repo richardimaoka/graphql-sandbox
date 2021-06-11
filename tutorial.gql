@@ -1,9 +1,9 @@
 """
 Page related types
 """
-
 type Page {
-  tasks [Task]
+  tasks: [Task]
+  isPremium: Boolean
 }
 
 """
