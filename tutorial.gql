@@ -1,3 +1,14 @@
+"""
+Page related types
+"""
+
+type Page {
+  tasks [Task]
+}
+
+"""
+Task related types
+"""
 type Task {
   _: Boolean
 }
