@@ -7,6 +7,7 @@ const typeDefs = gql`
   type Event {
     id: ID!
     date: Date!
+    whatever: String
   }
 
   type Query {
