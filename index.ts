@@ -12,13 +12,19 @@ const resolvers = {
       console.log(context.tweets)
       return context.tweets.data
     }
+  },
+  Tweet: {
+    id() {
+      return "abc"
+    }
   }
 };
 
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  mocks: false,
+  mocks: true,
+  mockEntireSchema: false,
   context: async () => ({
     tweets: await axios.get('http://localhost:3000/tweets')
   }) 
