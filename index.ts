@@ -10,15 +10,20 @@ const resolvers = {
   // ...other resolver definitions...
 };
 
+const promise = new Promise((resolve) => {
+  resolve(42);
+});
+promise.then((value) => {
+  console.log(value);
+}).catch((error) => {
+  console.error(error);
+});
+console.log("aaabbbddddddwddd")
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  mocks: true,
-  mockEntireSchema: true,
+  mocks: false,
 });
-
-const a = 1
-const b = 3
 
 // The `listen` method launches a web server.
 server.listen().then(({ url }) => {

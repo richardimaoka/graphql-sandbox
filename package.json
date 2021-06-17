@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "tsc -w & nodemon --watch twitter.gql index.js"
+    "tsc": "tsc -w",
+    "nodemon": "nodemon --watch twitter.gql --watch index.js"
   },
   "repository": {
     "type": "git",
