@@ -17,6 +17,9 @@ const server = new ApolloServer({
   mockEntireSchema: true,
 });
 
+const a = 1
+const b = 3
+
 // The `listen` method launches a web server.
 server.listen().then(({ url }) => {
   console.log(`🚀  Server ready at ${url}`);
