@@ -7,22 +7,21 @@ const typeDefs = gql`
 `;
 
 const resolvers = {
-  // ...other resolver definitions...
+  Query: {
+    tweets(parent, args, context, info) {
+      console.log(context.tweets)
+      return context.tweets.data
+    }
+  }
 };
 
-const promise = new Promise((resolve) => {
-  resolve(42);
-});
-promise.then((value) => {
-  console.log(value);
-}).catch((error) => {
-  console.error(error);
-});
-console.log("aaabbbddddddwddd")
 const server = new ApolloServer({
   typeDefs,
   resolvers,
   mocks: false,
+  context: async () => ({
+    tweets: await axios.get('http://localhost:3000/tweets')
+  }) 
 });
 
 // The `listen` method launches a web server.
