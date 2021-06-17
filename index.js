@@ -1,39 +1,11 @@
 const { ApolloServer, gql } = require("apollo-server");
-const { GraphQLScalarType, Kind } = require("graphql");
+const fs = require("fs");
 
 const typeDefs = gql`
-  scalar Date
-
-  type Event {
-    id: ID!
-    date: Date!
-    whatever: String
-  }
-
-  type Query {
-    events: [Event!]
-  }
+  ${fs.readFileSync(__dirname.concat("/twitter.gql"), "utf8")}
 `;
 
-const dateScalar = new GraphQLScalarType({
-  name: "Date",
-  description: "Date custom scalar type",
-  serialize(value) {
-    return value.getTime(); // Convert outgoing Date to integer for JSON
-  },
-  parseValue(value) {
-    return new Date(value); // Convert incoming integer to Date
-  },
-  parseLiteral(ast) {
-    if (ast.kind === Kind.INT) {
-      return new Date(parseInt(ast.value, 10)); // Convert hard-coded AST string to integer and then to Date
-    }
-    return null; // Invalid hard-coded value (not an integer)
-  },
-});
-
 const resolvers = {
-  Date: dateScalar,
   // ...other resolver definitions...
 };
 
