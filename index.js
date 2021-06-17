@@ -6,6 +6,9 @@ const typeDefs = gql`
 `;
 
 const resolvers = {
+  Query: {
+    tweets: 
+  },
   // ...other resolver definitions...
 };
 
