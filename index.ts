@@ -9,14 +9,11 @@ const typeDefs = gql`
 const resolvers = {
   Query: {
     tweets(parent, args, context, info) {
-      console.log(context.tweets)
       return context.tweets.data
     }
   },
   Tweet: {
-    id() {
-      return "abc"
-    }
+
   }
 };
 
