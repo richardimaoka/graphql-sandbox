@@ -7,35 +7,27 @@ import {
   useQuery,
   gql,
 } from "@apollo/client";
-import { useEffect, useContext } from "react";
 import React from "react";
-const ThemeContext = React.createContext();
 const client = new ApolloClient({
   uri: "https://48p1r2roz4.sse.codesandbox.io",
   cache: new InMemoryCache(),
 });
 
-// const client = ...
+const EXCHANGE_RATES = gql`
+  query GetExchangeRates {
+    rates(currency: "USD") {
+      currency
+      rate
+    }
+  }
+`;
 
 function App() {
   const a = "Learn react for greater good";
-  useEffect(() => {
-    client
-      .query({
-        query: gql`
-          query GetRates {
-            rates(currency: "USD") {
-              currency
-            }
-          }
-        `,
-      })
-      .then((result) => console.log(result));
-  });
 
   return (
     <div className="App">
-      <ThemeContext.Provider value="valueA">
+      <ApolloProvider client={client}>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p onClick={() => console.log("clicked")}>
@@ -51,14 +43,23 @@ function App() {
           </a>
           <Child></Child>
         </header>
-      </ThemeContext.Provider>
+      </ApolloProvider>
     </div>
   );
 }
 
 const Child = () => {
-  const theme = useContext(ThemeContext);
-  console.log(theme);
-  return <div>child</div>;
+  const { loading, error, data } = useQuery(EXCHANGE_RATES);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error :(</p>;
+
+  return data.rates.map(({ currency, rate }) => (
+    <div key={currency}>
+      <p>
+        {currency}: {rate}
+      </p>
+    </div>
+  ));
 };
 export default App;
