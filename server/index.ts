@@ -23,7 +23,7 @@ const server = new ApolloServer({
   mocks: true,
   mockEntireSchema: false,
   context: async () => ({
-    tweets: await axios.get('http://localhost:3000/tweets')
+    tweets: await axios.get('http://localhost:3001/tweets')
   }) 
 });
 
