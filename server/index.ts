@@ -34,12 +34,14 @@ const resolvers = {
     }
   },
   Tweet: {
-
+    user(parent) {
+      return parent.user
+    }
   },
   Timeline: {
     tweets(parent, args, context, info) {
       return Object.values(parent.tweets)
-    }  
+    }
   },
   TimeStamp: timeStampScalar
 };

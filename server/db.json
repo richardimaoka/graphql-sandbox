@@ -9,6 +9,69 @@
   "timeline": {
     "tweets": {
       "1406771011266043908": {
+        "user": {
+          "id": 2875908842,
+          "idStr": "2875908842",
+          "name": "\u30ea\u30c1\u30e3\u30fc\u30c9 \u4f0a\u771f\u5ca1",
+          "screenName": "RichardImaokaJP",
+          "location": null,
+          "description": "\u4e2d\u5805\u30a8\u30f3\u30b8\u30cb\u30a2",
+          "url": "https://blog-jp.richardimaoka.net",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://blog-jp.richardimaoka.net",
+                  "expandedUrl": "https://blog-jp.richardimaoka.net",
+                  "displayUrl": "blog-jp.richardimaoka.net",
+                  "indices": [0, 33]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followersCount": 342,
+          "friendsCount": 223,
+          "listedCount": 7,
+          "createdAt": "Sat Oct 25 00:13:42 +0000 2014",
+          "favouritesCount": 1628,
+          "utcOffset": null,
+          "timeZone": null,
+          "geoEnabled": false,
+          "verified": false,
+          "statusesCount": 3398,
+          "lang": null,
+          "contributorsEnabled": false,
+          "isTranslator": false,
+          "isTranslationEnabled": false,
+          "profileBackgroundColor": "C0DEED",
+          "profileBackgroundImageUrl": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundImageUrlHttps": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundTile": false,
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileBannerUrl": "https://pbs.twimg.com/profile_banners/2875908842/1568031488",
+          "profileLinkColor": "1DA1F2",
+          "profileSidebarBorderColor": "C0DEED",
+          "profileSidebarFillColor": "DDEEF6",
+          "profileTextColor": "333333",
+          "profileUseBackgroundImage": true,
+          "defaultProfile": true,
+          "defaultProfileImage": false,
+          "canMediaTag": null,
+          "following": false,
+          "followRequestSent": null,
+          "notifications": null,
+          "blocking": false,
+          "blockedBy": false,
+          "profileInterstitialType": "",
+          "translatorType": "regular",
+          "withheldInCountries": [],
+          "followedBy": false
+        },
         "createdAt": "Mon Jun 21 00:28:40 +0000 2021",
         "id": 1406771011266043908,
         "idStr": "1406771011266043908",
@@ -46,6 +109,69 @@
         "lang": "ja"
       },
       "1393497557658075138": {
+        "user": {
+          "id": 2875908842,
+          "idStr": "2875908842",
+          "name": "\u30ea\u30c1\u30e3\u30fc\u30c9 \u4f0a\u771f\u5ca1",
+          "screenName": "RichardImaokaJP",
+          "location": null,
+          "description": "\u4e2d\u5805\u30a8\u30f3\u30b8\u30cb\u30a2",
+          "url": "https://blog-jp.richardimaoka.net",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://blog-jp.richardimaoka.net",
+                  "expandedUrl": "https://blog-jp.richardimaoka.net",
+                  "displayUrl": "blog-jp.richardimaoka.net",
+                  "indices": [0, 33]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followersCount": 342,
+          "friendsCount": 223,
+          "listedCount": 7,
+          "createdAt": "Sat Oct 25 00:13:42 +0000 2014",
+          "favouritesCount": 1628,
+          "utcOffset": null,
+          "timeZone": null,
+          "geoEnabled": false,
+          "verified": false,
+          "statusesCount": 3398,
+          "lang": null,
+          "contributorsEnabled": false,
+          "isTranslator": false,
+          "isTranslationEnabled": false,
+          "profileBackgroundColor": "C0DEED",
+          "profileBackgroundImageUrl": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundImageUrlHttps": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundTile": false,
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileBannerUrl": "https://pbs.twimg.com/profile_banners/2875908842/1568031488",
+          "profileLinkColor": "1DA1F2",
+          "profileSidebarBorderColor": "C0DEED",
+          "profileSidebarFillColor": "DDEEF6",
+          "profileTextColor": "333333",
+          "profileUseBackgroundImage": true,
+          "defaultProfile": true,
+          "defaultProfileImage": false,
+          "canMediaTag": null,
+          "following": false,
+          "followRequestSent": null,
+          "notifications": null,
+          "blocking": false,
+          "blockedBy": false,
+          "profileInterstitialType": "",
+          "translatorType": "regular",
+          "withheldInCountries": [],
+          "followedBy": false
+        },
         "createdAt": "Sat May 15 09:24:42 +0000 2021",
         "id": 1393497557658075138,
         "idStr": "1393497557658075138",
@@ -366,6 +492,69 @@
         "lang": "ja"
       },
       "1396681687644266500": {
+        "user": {
+          "id": 2875908842,
+          "idStr": "2875908842",
+          "name": "\u30ea\u30c1\u30e3\u30fc\u30c9 \u4f0a\u771f\u5ca1",
+          "screenName": "RichardImaokaJP",
+          "location": null,
+          "description": "\u4e2d\u5805\u30a8\u30f3\u30b8\u30cb\u30a2",
+          "url": "https://blog-jp.richardimaoka.net",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://blog-jp.richardimaoka.net",
+                  "expandedUrl": "https://blog-jp.richardimaoka.net",
+                  "displayUrl": "blog-jp.richardimaoka.net",
+                  "indices": [0, 33]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followersCount": 342,
+          "friendsCount": 223,
+          "listedCount": 7,
+          "createdAt": "Sat Oct 25 00:13:42 +0000 2014",
+          "favouritesCount": 1628,
+          "utcOffset": null,
+          "timeZone": null,
+          "geoEnabled": false,
+          "verified": false,
+          "statusesCount": 3398,
+          "lang": null,
+          "contributorsEnabled": false,
+          "isTranslator": false,
+          "isTranslationEnabled": false,
+          "profileBackgroundColor": "C0DEED",
+          "profileBackgroundImageUrl": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundImageUrlHttps": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundTile": false,
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileBannerUrl": "https://pbs.twimg.com/profile_banners/2875908842/1568031488",
+          "profileLinkColor": "1DA1F2",
+          "profileSidebarBorderColor": "C0DEED",
+          "profileSidebarFillColor": "DDEEF6",
+          "profileTextColor": "333333",
+          "profileUseBackgroundImage": true,
+          "defaultProfile": true,
+          "defaultProfileImage": false,
+          "canMediaTag": null,
+          "following": false,
+          "followRequestSent": null,
+          "notifications": null,
+          "blocking": false,
+          "blockedBy": false,
+          "profileInterstitialType": "",
+          "translatorType": "regular",
+          "withheldInCountries": [],
+          "followedBy": false
+        },
         "createdAt": "Mon May 24 04:17:18 +0000 2021",
         "id": 1396681687644266500,
         "idStr": "1396681687644266500",
@@ -403,6 +592,69 @@
         "lang": "ja"
       },
       "1376071442656157699": {
+        "user": {
+          "id": 2875908842,
+          "idStr": "2875908842",
+          "name": "\u30ea\u30c1\u30e3\u30fc\u30c9 \u4f0a\u771f\u5ca1",
+          "screenName": "RichardImaokaJP",
+          "location": null,
+          "description": "\u4e2d\u5805\u30a8\u30f3\u30b8\u30cb\u30a2",
+          "url": "https://blog-jp.richardimaoka.net",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://blog-jp.richardimaoka.net",
+                  "expandedUrl": "https://blog-jp.richardimaoka.net",
+                  "displayUrl": "blog-jp.richardimaoka.net",
+                  "indices": [0, 33]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followersCount": 342,
+          "friendsCount": 223,
+          "listedCount": 7,
+          "createdAt": "Sat Oct 25 00:13:42 +0000 2014",
+          "favouritesCount": 1628,
+          "utcOffset": null,
+          "timeZone": null,
+          "geoEnabled": false,
+          "verified": false,
+          "statusesCount": 3398,
+          "lang": null,
+          "contributorsEnabled": false,
+          "isTranslator": false,
+          "isTranslationEnabled": false,
+          "profileBackgroundColor": "C0DEED",
+          "profileBackgroundImageUrl": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundImageUrlHttps": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundTile": false,
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileBannerUrl": "https://pbs.twimg.com/profile_banners/2875908842/1568031488",
+          "profileLinkColor": "1DA1F2",
+          "profileSidebarBorderColor": "C0DEED",
+          "profileSidebarFillColor": "DDEEF6",
+          "profileTextColor": "333333",
+          "profileUseBackgroundImage": true,
+          "defaultProfile": true,
+          "defaultProfileImage": false,
+          "canMediaTag": null,
+          "following": false,
+          "followRequestSent": null,
+          "notifications": null,
+          "blocking": false,
+          "blockedBy": false,
+          "profileInterstitialType": "",
+          "translatorType": "regular",
+          "withheldInCountries": [],
+          "followedBy": false
+        },
         "createdAt": "Sun Mar 28 07:19:32 +0000 2021",
         "id": 1376071442656157699,
         "idStr": "1376071442656157699",
@@ -704,6 +956,69 @@
         "lang": "ja"
       },
       "1396430178650230784": {
+        "user": {
+          "id": 2875908842,
+          "idStr": "2875908842",
+          "name": "\u30ea\u30c1\u30e3\u30fc\u30c9 \u4f0a\u771f\u5ca1",
+          "screenName": "RichardImaokaJP",
+          "location": null,
+          "description": "\u4e2d\u5805\u30a8\u30f3\u30b8\u30cb\u30a2",
+          "url": "https://blog-jp.richardimaoka.net",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://blog-jp.richardimaoka.net",
+                  "expandedUrl": "https://blog-jp.richardimaoka.net",
+                  "displayUrl": "blog-jp.richardimaoka.net",
+                  "indices": [0, 33]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followersCount": 342,
+          "friendsCount": 223,
+          "listedCount": 7,
+          "createdAt": "Sat Oct 25 00:13:42 +0000 2014",
+          "favouritesCount": 1628,
+          "utcOffset": null,
+          "timeZone": null,
+          "geoEnabled": false,
+          "verified": false,
+          "statusesCount": 3398,
+          "lang": null,
+          "contributorsEnabled": false,
+          "isTranslator": false,
+          "isTranslationEnabled": false,
+          "profileBackgroundColor": "C0DEED",
+          "profileBackgroundImageUrl": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundImageUrlHttps": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundTile": false,
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileBannerUrl": "https://pbs.twimg.com/profile_banners/2875908842/1568031488",
+          "profileLinkColor": "1DA1F2",
+          "profileSidebarBorderColor": "C0DEED",
+          "profileSidebarFillColor": "DDEEF6",
+          "profileTextColor": "333333",
+          "profileUseBackgroundImage": true,
+          "defaultProfile": true,
+          "defaultProfileImage": false,
+          "canMediaTag": null,
+          "following": false,
+          "followRequestSent": null,
+          "notifications": null,
+          "blocking": false,
+          "blockedBy": false,
+          "profileInterstitialType": "",
+          "translatorType": "regular",
+          "withheldInCountries": [],
+          "followedBy": false
+        },
         "createdAt": "Sun May 23 11:37:53 +0000 2021",
         "id": 1396430178650230784,
         "idStr": "1396430178650230784",
@@ -741,6 +1056,69 @@
         "lang": "ja"
       },
       "1377603373541642240": {
+        "user": {
+          "id": 2875908842,
+          "idStr": "2875908842",
+          "name": "\u30ea\u30c1\u30e3\u30fc\u30c9 \u4f0a\u771f\u5ca1",
+          "screenName": "RichardImaokaJP",
+          "location": null,
+          "description": "\u4e2d\u5805\u30a8\u30f3\u30b8\u30cb\u30a2",
+          "url": "https://blog-jp.richardimaoka.net",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://blog-jp.richardimaoka.net",
+                  "expandedUrl": "https://blog-jp.richardimaoka.net",
+                  "displayUrl": "blog-jp.richardimaoka.net",
+                  "indices": [0, 33]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followersCount": 342,
+          "friendsCount": 223,
+          "listedCount": 7,
+          "createdAt": "Sat Oct 25 00:13:42 +0000 2014",
+          "favouritesCount": 1628,
+          "utcOffset": null,
+          "timeZone": null,
+          "geoEnabled": false,
+          "verified": false,
+          "statusesCount": 3398,
+          "lang": null,
+          "contributorsEnabled": false,
+          "isTranslator": false,
+          "isTranslationEnabled": false,
+          "profileBackgroundColor": "C0DEED",
+          "profileBackgroundImageUrl": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundImageUrlHttps": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundTile": false,
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileBannerUrl": "https://pbs.twimg.com/profile_banners/2875908842/1568031488",
+          "profileLinkColor": "1DA1F2",
+          "profileSidebarBorderColor": "C0DEED",
+          "profileSidebarFillColor": "DDEEF6",
+          "profileTextColor": "333333",
+          "profileUseBackgroundImage": true,
+          "defaultProfile": true,
+          "defaultProfileImage": false,
+          "canMediaTag": null,
+          "following": false,
+          "followRequestSent": null,
+          "notifications": null,
+          "blocking": false,
+          "blockedBy": false,
+          "profileInterstitialType": "",
+          "translatorType": "regular",
+          "withheldInCountries": [],
+          "followedBy": false
+        },
         "createdAt": "Thu Apr 01 12:46:53 +0000 2021",
         "id": 1377603373541642240,
         "idStr": "1377603373541642240",
@@ -1042,6 +1420,69 @@
         "lang": "ja"
       },
       "1397142462070550533": {
+        "user": {
+          "id": 2875908842,
+          "idStr": "2875908842",
+          "name": "\u30ea\u30c1\u30e3\u30fc\u30c9 \u4f0a\u771f\u5ca1",
+          "screenName": "RichardImaokaJP",
+          "location": null,
+          "description": "\u4e2d\u5805\u30a8\u30f3\u30b8\u30cb\u30a2",
+          "url": "https://blog-jp.richardimaoka.net",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://blog-jp.richardimaoka.net",
+                  "expandedUrl": "https://blog-jp.richardimaoka.net",
+                  "displayUrl": "blog-jp.richardimaoka.net",
+                  "indices": [0, 33]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followersCount": 342,
+          "friendsCount": 223,
+          "listedCount": 7,
+          "createdAt": "Sat Oct 25 00:13:42 +0000 2014",
+          "favouritesCount": 1628,
+          "utcOffset": null,
+          "timeZone": null,
+          "geoEnabled": false,
+          "verified": false,
+          "statusesCount": 3398,
+          "lang": null,
+          "contributorsEnabled": false,
+          "isTranslator": false,
+          "isTranslationEnabled": false,
+          "profileBackgroundColor": "C0DEED",
+          "profileBackgroundImageUrl": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundImageUrlHttps": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundTile": false,
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileBannerUrl": "https://pbs.twimg.com/profile_banners/2875908842/1568031488",
+          "profileLinkColor": "1DA1F2",
+          "profileSidebarBorderColor": "C0DEED",
+          "profileSidebarFillColor": "DDEEF6",
+          "profileTextColor": "333333",
+          "profileUseBackgroundImage": true,
+          "defaultProfile": true,
+          "defaultProfileImage": false,
+          "canMediaTag": null,
+          "following": false,
+          "followRequestSent": null,
+          "notifications": null,
+          "blocking": false,
+          "blockedBy": false,
+          "profileInterstitialType": "",
+          "translatorType": "regular",
+          "withheldInCountries": [],
+          "followedBy": false
+        },
         "createdAt": "Tue May 25 10:48:15 +0000 2021",
         "id": 1397142462070550533,
         "idStr": "1397142462070550533",
@@ -1091,6 +1532,69 @@
         }
       },
       "1344856635034849282": {
+        "user": {
+          "id": 2875908842,
+          "idStr": "2875908842",
+          "name": "\u30ea\u30c1\u30e3\u30fc\u30c9 \u4f0a\u771f\u5ca1",
+          "screenName": "RichardImaokaJP",
+          "location": null,
+          "description": "\u4e2d\u5805\u30a8\u30f3\u30b8\u30cb\u30a2",
+          "url": "https://blog-jp.richardimaoka.net",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://blog-jp.richardimaoka.net",
+                  "expandedUrl": "https://blog-jp.richardimaoka.net",
+                  "displayUrl": "blog-jp.richardimaoka.net",
+                  "indices": [0, 33]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followersCount": 342,
+          "friendsCount": 223,
+          "listedCount": 7,
+          "createdAt": "Sat Oct 25 00:13:42 +0000 2014",
+          "favouritesCount": 1628,
+          "utcOffset": null,
+          "timeZone": null,
+          "geoEnabled": false,
+          "verified": false,
+          "statusesCount": 3398,
+          "lang": null,
+          "contributorsEnabled": false,
+          "isTranslator": false,
+          "isTranslationEnabled": false,
+          "profileBackgroundColor": "C0DEED",
+          "profileBackgroundImageUrl": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundImageUrlHttps": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundTile": false,
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileBannerUrl": "https://pbs.twimg.com/profile_banners/2875908842/1568031488",
+          "profileLinkColor": "1DA1F2",
+          "profileSidebarBorderColor": "C0DEED",
+          "profileSidebarFillColor": "DDEEF6",
+          "profileTextColor": "333333",
+          "profileUseBackgroundImage": true,
+          "defaultProfile": true,
+          "defaultProfileImage": false,
+          "canMediaTag": null,
+          "following": false,
+          "followRequestSent": null,
+          "notifications": null,
+          "blocking": false,
+          "blockedBy": false,
+          "profileInterstitialType": "",
+          "translatorType": "regular",
+          "withheldInCountries": [],
+          "followedBy": false
+        },
         "createdAt": "Fri Jan 01 04:03:02 +0000 2021",
         "id": 1344856635034849282,
         "idStr": "1344856635034849282",
@@ -1128,6 +1632,69 @@
         "lang": "ja"
       },
       "1399918647003410435": {
+        "user": {
+          "id": 2875908842,
+          "idStr": "2875908842",
+          "name": "\u30ea\u30c1\u30e3\u30fc\u30c9 \u4f0a\u771f\u5ca1",
+          "screenName": "RichardImaokaJP",
+          "location": null,
+          "description": "\u4e2d\u5805\u30a8\u30f3\u30b8\u30cb\u30a2",
+          "url": "https://blog-jp.richardimaoka.net",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://blog-jp.richardimaoka.net",
+                  "expandedUrl": "https://blog-jp.richardimaoka.net",
+                  "displayUrl": "blog-jp.richardimaoka.net",
+                  "indices": [0, 33]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followersCount": 342,
+          "friendsCount": 223,
+          "listedCount": 7,
+          "createdAt": "Sat Oct 25 00:13:42 +0000 2014",
+          "favouritesCount": 1628,
+          "utcOffset": null,
+          "timeZone": null,
+          "geoEnabled": false,
+          "verified": false,
+          "statusesCount": 3398,
+          "lang": null,
+          "contributorsEnabled": false,
+          "isTranslator": false,
+          "isTranslationEnabled": false,
+          "profileBackgroundColor": "C0DEED",
+          "profileBackgroundImageUrl": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundImageUrlHttps": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profileBackgroundTile": false,
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1208118895741001728/-t2DIJt-_normal.jpg",
+          "profileBannerUrl": "https://pbs.twimg.com/profile_banners/2875908842/1568031488",
+          "profileLinkColor": "1DA1F2",
+          "profileSidebarBorderColor": "C0DEED",
+          "profileSidebarFillColor": "DDEEF6",
+          "profileTextColor": "333333",
+          "profileUseBackgroundImage": true,
+          "defaultProfile": true,
+          "defaultProfileImage": false,
+          "canMediaTag": null,
+          "following": false,
+          "followRequestSent": null,
+          "notifications": null,
+          "blocking": false,
+          "blockedBy": false,
+          "profileInterstitialType": "",
+          "translatorType": "regular",
+          "withheldInCountries": [],
+          "followedBy": false
+        },
         "createdAt": "Wed Jun 02 02:39:49 +0000 2021",
         "id": 1399918647003410435,
         "idStr": "1399918647003410435",
@@ -1170,7 +1737,6 @@
     {
       "createdAt": "2021-06-18T01:50:00+09:00",
       "content": "#Bootstrap セッションのアシスタント役にて参加いたします。V5.0 にバージョンアップし、シンプルになったBootstrap（https://getbootstrap.com）。この機会に触れてみませんか？\r\n「Googleに寄り添うマークアップ」セッションも、拝聴するのを楽しみにしています。\r\n#cssnite",
-      "user": "r360studio",
       "replies": 0,
       "retweets": 1,
       "favorites": 0
