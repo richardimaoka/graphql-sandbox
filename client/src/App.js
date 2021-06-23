@@ -1,4 +1,3 @@
-import "./App.css";
 import {
   ApolloClient,
   InMemoryCache,
@@ -30,9 +29,9 @@ function App() {
   const a = "Learn react for greater good";
 
   return (
-    <div className="App">
+    <div>
       <ApolloProvider client={client}>
-        <header className="App-header">
+        <header>
           <Child></Child>
         </header>
       </ApolloProvider>
