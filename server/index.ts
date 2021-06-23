@@ -28,10 +28,18 @@ const resolvers = {
   Query: {
     tweets(parent, args, context, info) {
       return context.tweets.data
+    },
+    timeline(parent, args, context, info) {
+      return context.timeline.data
     }
   },
   Tweet: {
 
+  },
+  Timeline: {
+    tweets(parent, args, context, info) {
+      return Object.values(parent.tweets)
+    }  
   },
   TimeStamp: timeStampScalar
 };
@@ -42,7 +50,8 @@ const server = new ApolloServer({
   mocks: true,
   mockEntireSchema: false,
   context: async () => ({
-    tweets: await axios.get('http://localhost:3001/tweets')
+    tweets: await axios.get('http://localhost:3001/tweets'),
+    timeline: await axios.get('http://localhost:3001/timeline')
   }) 
 });
 

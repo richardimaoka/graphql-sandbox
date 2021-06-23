@@ -1,13 +1,20 @@
 type Query {
   recommendedUsers: [User]
   tweets: [Tweet]
+  timeline: Timeline
 }
 
 scalar TimeStamp
 
+type Timeline {
+  tweets: [Tweet]
+}
+
 type User {
-  userId: String
-  userName: String
+  id: String
+  screenName: String
+  url: String
+  profileImageUrl: String
 }
 
 type Category {
@@ -21,11 +28,11 @@ type Topic {
 
 type Tweet {
   id: ID
-  created_at: TimeStamp
-  content: String
   user: User
-  favorits: Int
-  replies: Int
-  retweets: Int
-  sdfa: Int
+  createdAt: TimeStamp
+  fullText: String
+  favoriteCount: Int
+  replyCount: Int
+  retweetCount: Int
+  quoteCount: Int
 }

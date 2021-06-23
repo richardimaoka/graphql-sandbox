@@ -16,10 +16,14 @@ const EXCHANGE_RATES = gql`
   query {
     tweets {
       id
-      created_at
-      content
+      createdAt
+      fullText
+      favoriteCount
+      retweetCount
+      replyCount
       user {
-        userName
+        screenName
+        profileImageUrl
       }
     }
   }
@@ -46,12 +50,26 @@ const Child = () => {
   if (error) return <p>Error :(</p>;
   console.log(data);
 
-  return data.tweets.map(({ id, created_at, user, content }) => (
-    <div key={id}>
-      <div>{user.userName}</div>
-      <div>{created_at}</div>
-      <p>{content}</p>
-    </div>
-  ));
+  return data.tweets.map(
+    ({
+      id,
+      createdAt,
+      user,
+      fullText,
+      favoriteCount,
+      replyCount,
+      retWeetCount,
+    }) => (
+      <div key={id}>
+        <div>{user.screenName}</div>
+        <div>{createdAt}</div>
+        <p>{fullText}</p>
+        <p>
+          <span>reply: {replyCount}</span>,<span>retweet: {retWeetCount}</span>{" "}
+          ,<span>favorite: {favoriteCount}</span>
+        </p>
+      </div>
+    )
+  );
 };
 export default App;
