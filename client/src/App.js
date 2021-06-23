@@ -14,16 +14,18 @@ const client = new ApolloClient({
 
 const EXCHANGE_RATES = gql`
   query {
-    tweets {
-      id
-      createdAt
-      fullText
-      favoriteCount
-      retweetCount
-      replyCount
-      user {
-        screenName
-        profileImageUrl
+    timeline {
+      tweets {
+        id
+        createdAt
+        fullText
+        favoriteCount
+        retweetCount
+        replyCount
+        user {
+          screenName
+          profileImageUrl
+        }
       }
     }
   }
@@ -50,7 +52,7 @@ const Child = () => {
   if (error) return <p>Error :(</p>;
   console.log(data);
 
-  return data.tweets.map(
+  return data.timeline.tweets.map(
     ({
       id,
       createdAt,
