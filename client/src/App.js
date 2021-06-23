@@ -48,8 +48,8 @@ const Child = () => {
 
   return data.tweets.map(({ id, created_at, user, content }) => (
     <div key={id}>
-      <div>{created_at}</div>
       <div>{user.userName}</div>
+      <div>{created_at}</div>
       <p>{content}</p>
     </div>
   ));
