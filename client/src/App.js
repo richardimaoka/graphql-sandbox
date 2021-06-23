@@ -16,7 +16,7 @@ const EXCHANGE_RATES = gql`
   query {
     tweets {
       id
-      time
+      created_at
       content
       user {
         userName
@@ -46,8 +46,9 @@ const Child = () => {
   if (error) return <p>Error :(</p>;
   console.log(data);
 
-  return data.tweets.map(({ id, user, content }) => (
+  return data.tweets.map(({ id, created_at, user, content }) => (
     <div key={id}>
+      <div>{created_at}</div>
       <div>{user.userName}</div>
       <p>{content}</p>
     </div>

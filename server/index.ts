@@ -1,10 +1,28 @@
 const { ApolloServer, gql } = require("apollo-server");
+const {GraphQLScalarType, Kind } = require('graphql');
 const fs = require("fs");
 const axios = require('axios').default;
 
 const typeDefs = gql`
   ${fs.readFileSync(__dirname.concat("/twitter.gql"), "utf8")}
 `;
+
+const timeStampScalar = new GraphQLScalarType({
+  name: 'TimeStamp',
+  description: 'TimeStamp scalar type',
+  serialize(stringValue) {
+    return stringValue ; // Convert to outgoing JSON value
+  },
+  parseValue(stringValue) {
+    return stringValue; // Convert incoming JSON value to backend representation
+  },
+  parseLiteral(ast) {
+    if (ast.kind === Kind.STRING) {
+      return new Date(parseInt(ast.value, 10)); // Convert hard-coded AST string to backend representation
+    }
+    return null; // Invalid hard-coded value (not an integer)
+  },
+});
 
 const resolvers = {
   Query: {
@@ -14,7 +32,8 @@ const resolvers = {
   },
   Tweet: {
 
-  }
+  },
+  TimeStamp: timeStampScalar
 };
 
 const server = new ApolloServer({

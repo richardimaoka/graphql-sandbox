@@ -1,3 +1,10 @@
+type Query {
+  recommendedUsers: [User]
+  tweets: [Tweet]
+}
+
+scalar TimeStamp
+
 type User {
   userId: String
   userName: String
@@ -14,16 +21,11 @@ type Topic {
 
 type Tweet {
   id: ID
-  time: String
+  created_at: TimeStamp
   content: String
   user: User
   favorits: Int
   replies: Int
   retweets: Int
   sdfa: Int
-}
-
-type Query {
-  recommendedUsers: [User]
-  tweets: [Tweet]
 }
