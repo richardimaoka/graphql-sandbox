@@ -60,14 +60,14 @@ const Child = () => {
       fullText,
       favoriteCount,
       replyCount,
-      retWeetCount,
+      retweetCount,
     }) => (
       <div key={id}>
         <div>{user.screenName}</div>
         <div>{createdAt}</div>
         <p>{fullText}</p>
         <p>
-          <span>reply: {replyCount}</span>,<span>retweet: {retWeetCount}</span>{" "}
+          <span>reply: {replyCount}</span>,<span>retweet: {retweetCount}</span>{" "}
           ,<span>favorite: {favoriteCount}</span>
         </p>
       </div>
