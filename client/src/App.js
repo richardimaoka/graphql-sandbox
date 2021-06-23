@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import {
   ApolloClient,
@@ -20,6 +19,9 @@ const EXCHANGE_RATES = gql`
       id
       time
       content
+      user {
+        userName
+      }
     }
   }
 `;
@@ -45,9 +47,9 @@ const Child = () => {
   if (error) return <p>Error :(</p>;
   console.log(data);
 
-  return data.tweets.map(({ id, time, content }) => (
+  return data.tweets.map(({ id, user, content }) => (
     <div key={id}>
-      <div>{time}</div>
+      <div>{user.userName}</div>
       <p>{content}</p>
     </div>
   ));
