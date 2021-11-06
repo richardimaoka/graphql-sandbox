@@ -1,4 +1,4 @@
-{
+query myQuery {
   getCharacters(sortDirection: ASC) {
     id
     name

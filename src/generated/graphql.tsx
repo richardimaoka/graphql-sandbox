@@ -98,14 +98,14 @@ export type TvSeason = {
   startDate: Scalars['String'];
 };
 
-export type Unnamed_1_QueryVariables = Exact<{ [key: string]: never; }>;
+export type MyQueryQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type Unnamed_1_Query = { __typename?: 'Query', getCharacters: Array<{ __typename?: 'Character', id: string, name: string, playedBy?: string | null | undefined, culture?: string | null | undefined, isAlive: boolean, allegiances?: Array<{ __typename?: 'House', name: string }> | null | undefined }> };
+export type MyQueryQuery = { __typename?: 'Query', getCharacters: Array<{ __typename?: 'Character', id: string, name: string, playedBy?: string | null | undefined, culture?: string | null | undefined, isAlive: boolean, allegiances?: Array<{ __typename?: 'House', name: string }> | null | undefined }> };
 
 
-export const Document = gql`
-    {
+export const MyQueryDocument = gql`
+    query myQuery {
   getCharacters(sortDirection: ASC) {
     id
     name
@@ -120,28 +120,28 @@ export const Document = gql`
     `;
 
 /**
- * __useQuery__
+ * __useMyQueryQuery__
  *
- * To run a query within a React component, call `useQuery` and pass it any options that fit your needs.
- * When your component renders, `useQuery` returns an object from Apollo Client that contains loading, error, and data properties
+ * To run a query within a React component, call `useMyQueryQuery` and pass it any options that fit your needs.
+ * When your component renders, `useMyQueryQuery` returns an object from Apollo Client that contains loading, error, and data properties
  * you can use to render your UI.
  *
  * @param baseOptions options that will be passed into the query, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options;
  *
  * @example
- * const { data, loading, error } = useQuery({
+ * const { data, loading, error } = useMyQueryQuery({
  *   variables: {
  *   },
  * });
  */
-export function useQuery(baseOptions?: Apollo.QueryHookOptions<Query, QueryVariables>) {
+export function useMyQueryQuery(baseOptions?: Apollo.QueryHookOptions<MyQueryQuery, MyQueryQueryVariables>) {
         const options = {...defaultOptions, ...baseOptions}
-        return Apollo.useQuery<Query, QueryVariables>(Document, options);
+        return Apollo.useQuery<MyQueryQuery, MyQueryQueryVariables>(MyQueryDocument, options);
       }
-export function useLazyQuery(baseOptions?: Apollo.LazyQueryHookOptions<Query, QueryVariables>) {
+export function useMyQueryLazyQuery(baseOptions?: Apollo.LazyQueryHookOptions<MyQueryQuery, MyQueryQueryVariables>) {
           const options = {...defaultOptions, ...baseOptions}
-          return Apollo.useLazyQuery<Query, QueryVariables>(Document, options);
+          return Apollo.useLazyQuery<MyQueryQuery, MyQueryQueryVariables>(MyQueryDocument, options);
         }
-export type QueryHookResult = ReturnType<typeof useQuery>;
-export type LazyQueryHookResult = ReturnType<typeof useLazyQuery>;
-export type QueryResult = Apollo.QueryResult<Query, QueryVariables>;
+export type MyQueryQueryHookResult = ReturnType<typeof useMyQueryQuery>;
+export type MyQueryLazyQueryHookResult = ReturnType<typeof useMyQueryLazyQuery>;
+export type MyQueryQueryResult = Apollo.QueryResult<MyQueryQuery, MyQueryQueryVariables>;
