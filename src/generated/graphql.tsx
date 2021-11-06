@@ -23,44 +23,44 @@ export type Book = {
 
 export type Character = {
   __typename?: 'Character';
-  aliases?: Maybe<Array<Scalars['String']>>;
-  allegiances?: Maybe<Array<House>>;
+  aliases: Maybe<Array<Scalars['String']>>;
+  allegiances: Maybe<Array<House>>;
   appearedIn: Array<TvSeason>;
-  books?: Maybe<Array<Book>>;
-  born?: Maybe<Scalars['String']>;
-  children?: Maybe<Array<Character>>;
-  culture?: Maybe<Scalars['String']>;
-  died?: Maybe<Scalars['String']>;
-  father?: Maybe<Character>;
+  books: Maybe<Array<Book>>;
+  born: Maybe<Scalars['String']>;
+  children: Maybe<Array<Character>>;
+  culture: Maybe<Scalars['String']>;
+  died: Maybe<Scalars['String']>;
+  father: Maybe<Character>;
   id: Scalars['ID'];
   isAlive: Scalars['Boolean'];
-  mother?: Maybe<Character>;
+  mother: Maybe<Character>;
   name: Scalars['String'];
-  playedBy?: Maybe<Scalars['String']>;
-  spouse?: Maybe<Character>;
-  titles?: Maybe<Array<Scalars['String']>>;
+  playedBy: Maybe<Scalars['String']>;
+  spouse: Maybe<Character>;
+  titles: Maybe<Array<Scalars['String']>>;
 };
 
 export type House = {
   __typename?: 'House';
-  ancestralWeapons?: Maybe<Array<Scalars['String']>>;
-  coatOfArms?: Maybe<Scalars['String']>;
-  currentLord?: Maybe<Character>;
-  founder?: Maybe<Character>;
+  ancestralWeapons: Maybe<Array<Scalars['String']>>;
+  coatOfArms: Maybe<Scalars['String']>;
+  currentLord: Maybe<Character>;
+  founder: Maybe<Character>;
   id: Scalars['ID'];
   members: Array<Character>;
   name: Scalars['String'];
-  overlord?: Maybe<Character>;
-  seats?: Maybe<Array<Scalars['String']>>;
-  slogan?: Maybe<Scalars['String']>;
-  titles?: Maybe<Array<Scalars['String']>>;
+  overlord: Maybe<Character>;
+  seats: Maybe<Array<Scalars['String']>>;
+  slogan: Maybe<Scalars['String']>;
+  titles: Maybe<Array<Scalars['String']>>;
 };
 
 export type Query = {
   __typename?: 'Query';
-  getCharacter?: Maybe<Character>;
+  getCharacter: Maybe<Character>;
   getCharacters: Array<Character>;
-  getHouse?: Maybe<House>;
+  getHouse: Maybe<House>;
   getHouses: Array<House>;
 };
 
@@ -71,7 +71,7 @@ export type QueryGetCharacterArgs = {
 
 
 export type QueryGetCharactersArgs = {
-  sortDirection?: Maybe<SortDirection>;
+  sortDirection: Maybe<SortDirection>;
 };
 
 
@@ -81,7 +81,7 @@ export type QueryGetHouseArgs = {
 
 
 export type QueryGetHousesArgs = {
-  sortDirection?: Maybe<SortDirection>;
+  sortDirection: Maybe<SortDirection>;
 };
 
 export enum SortDirection {
@@ -101,7 +101,7 @@ export type TvSeason = {
 export type MyQueryQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type MyQueryQuery = { __typename?: 'Query', getCharacters: Array<{ __typename?: 'Character', id: string, name: string, playedBy?: string | null | undefined, culture?: string | null | undefined, isAlive: boolean, allegiances?: Array<{ __typename?: 'House', name: string }> | null | undefined }> };
+export type MyQueryQuery = { __typename?: 'Query', getCharacters: Array<{ __typename?: 'Character', id: string, name: string, playedBy: string | null, culture: string | null, isAlive: boolean, allegiances: Array<{ __typename?: 'House', name: string }> | null }> };
 
 
 export const MyQueryDocument = gql`
