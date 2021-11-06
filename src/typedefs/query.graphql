@@ -1,0 +1,12 @@
+{
+  getCharacters(sortDirection: ASC) {
+    id
+    name
+    playedBy
+    culture
+    allegiances {
+      name
+    }
+    isAlive
+  }
+}
